@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="neo4jalt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/neo4jalt_jar</output-path>
+    <root id="archive" name="neo4jalt.jar">
+      <element id="module-output" name="neo4j_alt" />
+      <element id="library" level="module" name="Maven: jdk.tools:jdk.tools:1.6" module-name="neo4j_alt" />
+      <element id="library" level="project" name="Maven: org.neo4j.driver:neo4j-java-driver:1.5.0" />
+      <element id="library" level="project" name="Maven: org.neo4j.procedure:apoc:3.4.0.1" />
+    </root>
+  </artifact>
+</component>
